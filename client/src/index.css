@@ -26,6 +26,8 @@ body {
   line-height: 1.5;
   font-size: 16px;
   color: var(--dark);
+  background-image: url(./assets/top-coffee.png) ;
+  background-size: cover;
 }
 
 h1,
@@ -42,37 +44,45 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  color: black;
 }
 
 h2 {
   font-size: 2rem;
+  color: black;
 }
 
 h3 {
   font-size: 1.75rem;
+  color: black;
 }
 
 h4 {
   font-size: 1.5rem;
+  color: black;
 }
 
 h5 {
   font-size: 1.25rem;
+  color: black;
 }
 
 h6 {
   font-size: 1rem;
+  color: black;
 }
 
 p {
   font-size: 1.1rem;
   margin-top: 0;
+  color: black;
 }
 
 a {
   color: var(--tertiary);
   text-decoration: none;
   font-weight: bold;
+  color: black;
 }
 
 a:hover {
@@ -187,6 +197,7 @@ input:focus {
 .py-1 {
   padding-top: var(--spacing-one);
   padding-bottom: var(--spacing-one);
+  color: black;
 }
 
 .py-2 {
