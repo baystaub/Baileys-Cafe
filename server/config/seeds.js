@@ -22,6 +22,7 @@ db.once("open", async () => {
       image: "Chicken-and-waffles-18.jpg",
       category: categories[0]._id,
       price: 5.49,
+      quantity: 30,
     },
     {
       name: "Chocolate chip Pancakes",
@@ -29,6 +30,7 @@ db.once("open", async () => {
       image: "best-mini-chocolate-chip-pancakes-720x720.jpg",
       category: categories[0]._id,
       price: 6.79,
+      quantity: 30,
     },
     {
       name: "Breakfast Tacos",
@@ -37,6 +39,7 @@ db.once("open", async () => {
         "A good breakfast taco is a thing of beauty. Not only will these keep you full until lunch, they've also been known to cure a mean hangover.",
       image: "Breakfast-tacos.jpg",
       price: 4.11,
+      quantity: 30,
     },
     {
       name: "Cinimmon suger French Toast",
@@ -45,6 +48,7 @@ db.once("open", async () => {
         "Golden, fluffy delicant french toast with a heap of cinimmon and suger baked in",
       image: "French-Toast.jpg",
       price: 7.99,
+      quantity: 30,
     },
     {
       name: "Steak and Spinich Quesadilla",
@@ -52,6 +56,7 @@ db.once("open", async () => {
       description: "Crispy, delicious Steak and spiniach Quesadilla.",
       image: "Steak-and-Spinach-Quesadilla.jpg",
       price: 9.85,
+      quantity: 30,
     },
     {
       name: "Bacon Cheese burger",
@@ -60,6 +65,7 @@ db.once("open", async () => {
         "Thick juicy Cheese burger wrapped in cripsy bacon, smooshed between a briouce bun",
       image: "Bacon-and-cheese-burgers-3.jpg",
       price: 12.99,
+      quantity: 30,
     },
     {
       name: "Permento Cheese and bacon Grilled cheese with garlic aoli",
@@ -67,6 +73,7 @@ db.once("open", async () => {
       description: "Permento Cheese and bacon Grilled cheese with garlic aoli",
       image: "GrilledCheese.jpg",
       price: 8.99,
+      quantity: 30,
     },
     {
       name: "Milk",
@@ -75,6 +82,7 @@ db.once("open", async () => {
         "Whole milk with your choice between Chocolate and Strawberry",
       image: "Chocolate-milk.jpg",
       price: 2.5,
+      quantity: 30,
     },
     {
       name: "Lattee",
@@ -83,6 +91,7 @@ db.once("open", async () => {
         "Sweet Cream milk steamed to perfection with a shot of epresso, With your choice of flavoring between Vanilla, Hazlenut, Mocha",
       image: "latte.jpg",
       price: 3.5,
+      quantity: 30,
     },
     {
       name: "Strawberry Matcha Latte",
@@ -91,6 +100,7 @@ db.once("open", async () => {
         "Organic premium-grade matcha, milk and our housemade strawberry puree.",
       image: "STRAWBERRY-MATCHA-LATTE_Thumb.jpeg",
       price: 4.99,
+      quantity: 30,
     },
     {
       name: "Chai Snow Tea",
@@ -98,6 +108,7 @@ db.once("open", async () => {
       description: "A smooth chai tea, with options of Matcha tea on top",
       image: "",
       price: 7.99,
+      quantity: 30,
     },
     {
       name: "GingerAle",
@@ -105,6 +116,7 @@ db.once("open", async () => {
       description: "Ginger in an ale",
       image: "gingerale.jpg",
       price: 2.5,
+      quantity: 30,
     },
     {
       name: "Sweet Cheese slush",
@@ -113,6 +125,7 @@ db.once("open", async () => {
         "Your choice of starwberry, mango, peach, watermello and taro slush topped with a thick slice of cheese.",
       image: "slush.jpg",
       price: 2.5,
+      quantity: 30,
     },
     {
       name: "White coffee breve",
@@ -120,6 +133,7 @@ db.once("open", async () => {
       description: "A smooth white coffee with a pump of breve flavoring",
       image: "",
       price: 2.5,
+      quantity: 30,
     },
     {
       name: "Hat",
@@ -158,10 +172,7 @@ db.once("open", async () => {
       category: categories[2]._id,
       description: "A gift card to be used at 'The Bailey Cafe'",
       image: "https://thumbs.dreamstime.com/b/gift-card-icon-vector-ecommerce-basic-collection-thin-line-outline-illustration-linear-symbol-use-web-mobile-apps-166041074.jpg",
-      price: 9.99, 
-      price: 20.00, 
-      price: 50.00, 
-      price: 100.00,
+      price: 9.99,
       quantity: 600,
     },
   ]);

@@ -20,6 +20,8 @@
     "concurrently": "^5.1.0"
   },
   "dependencies": {
-    "if-env": "^1.0.4"
+    "if-env": "^1.0.4",
+    "mongo-seeding": "^3.7.0",
+    "mongoose-seeder": "^1.2.1"
   }
 }
