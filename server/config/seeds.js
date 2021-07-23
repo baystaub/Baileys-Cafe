@@ -7,7 +7,7 @@ db.once("open", async () => {
   const categories = await Category.insertMany([
     { name: "Food" },
     { name: "Drinks" },
-    { name: "Merch" },
+    { name: "Merchandise" },
   ]);
 
   console.log("categories seeded");
@@ -123,7 +123,7 @@ db.once("open", async () => {
     },
     {
       name: "Hat",
-      category: categories[3]._id,
+      category: categories[2]._id,
       descriaption: "Hat that says 'The Bailey Cafe', will come in colors of Grey, Black, White.",
       image: "https://topchefuniforms.com.au/wp-content/uploads/2013/12/1-CAP-BLACK.jpg",
       price: 9.99,
@@ -131,7 +131,7 @@ db.once("open", async () => {
     },
     {
       name: "Shirt",
-      category: categories[3]._id,
+      category: categories[2]._id,
       description: "Shirt that says 'The Bailey Cafe', the back has our slogan 'Better than your MaMa's Breakfest', will come in colors of Grey, Black, White, Blue, and Red.",
       image: "https://pyxis.nymag.com/v1/imgs/05d/b15/f4c61238a24a34610ae3a41dede1df90a4-Gildan-black-tshirt.rsquare.w600.jpg",
       price: 14.99,
@@ -139,7 +139,7 @@ db.once("open", async () => {
     },
     {
       name: "Mug",
-      category: categories[3]._id,
+      category: categories[2]._id,
       description: "A mug that says 'The Bailey Cafe', will come in colors of Grey, Black, White.",
       image: "https://www.lego.com/cdn/cs/set/assets/blt843679bda9bde338/853910.jpg?fit=bounds&format=jpg&quality=80&width=1600&height=1600&dpr=1",
       price: 4.99,
@@ -147,7 +147,7 @@ db.once("open", async () => {
     },
     {
       name: "Sweatshirt",
-      category: categories[3]._id,
+      category: categories[2]._id,
       description: "A Sweatshirt that says 'The Bailey Cafe', will come in colors of Grey, Black, White, Blue, and Red.",
       image: "https://m.media-amazon.com/images/I/81IEZzMNHvL._AC_UL1500_.jpg", 
       price: 19.99,
@@ -155,7 +155,7 @@ db.once("open", async () => {
     },
     {
       name: "Gift Card",
-      category: categories[3]._id,
+      category: categories[2]._id,
       description: "A gift card to be used at 'The Bailey Cafe'",
       image: "https://thumbs.dreamstime.com/b/gift-card-icon-vector-ecommerce-basic-collection-thin-line-outline-illustration-linear-symbol-use-web-mobile-apps-166041074.jpg",
       price: 9.99, 
