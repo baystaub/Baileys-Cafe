@@ -21,7 +21,7 @@ db.once("open", async () => {
         "Our delicious Chicken & Waffles comes with spicy blueberry syrup and a honey mustard sauce drizzled over our perfectly cooked fried chicken and buttermilk waffle.",
       image: "Slide3.PNG",
       category: categories[0]._id,
-      price: 13,
+      price: 13.00,
       quantity: 30,
     },
     {
@@ -30,7 +30,7 @@ db.once("open", async () => {
       description:
         "Set of three deliciously put together tacos with a fried egg on top.",
       image: "Slide14.PNG",
-      price: 9,
+      price: 9.00,
       quantity: 30,
     },
     {
@@ -38,7 +38,7 @@ db.once("open", async () => {
       description: "Perfectly round buttermilk pancakes with chocolate chips that will melt in your mouth.",
       image: "Slide4.PNG",
       category: categories[0]._id,
-      price: 9,
+      price: 9.00,
       quantity: 30,
     },
 
@@ -48,7 +48,7 @@ db.once("open", async () => {
       description:
         "Golden, fluffy delicant french toast stuffed with chocolate and topped with fresh strawberries.",
       image: "Slide5.PNG",
-      price: 11,
+    price: 11.00,
       quantity: 30,
     },
 
@@ -58,7 +58,7 @@ db.once("open", async () => {
       description:
         "Thick, juicy cheeseburger wrapped in crispy bacon on top of a brioche bun.",
       image: "Slide1.PNG",
-      price: 13,
+      price: 13.00,
       quantity: 30,
     },
     {
@@ -66,7 +66,7 @@ db.once("open", async () => {
       category: categories[0]._id,
       description: "Pimiento grilled cheese with crispy bacon and garlic aoli",
       image: "Slide2.PNG",
-      price: 12,
+      price: 12.00,
       quantity: 30,
     },
     {
@@ -74,7 +74,7 @@ db.once("open", async () => {
       category: categories[0]._id,
       description: "Crispy, delicious Steak and spinach quesadilla.",
       image: "Slide6.PNG",
-      price: 10,
+      price: 10.00,
       quantity: 30,
     },
     {
@@ -83,7 +83,7 @@ db.once("open", async () => {
       description:
         "Crispy, delicious wings tossed in our homemade Spicy Garlic Sauce.",
       image: "Slide15.PNG",
-      price: 16,
+      price: 16.00,
       quantity: 30,
     },
     {
@@ -91,7 +91,7 @@ db.once("open", async () => {
       category: categories[1]._id,
       description: "Water",
       image: "Slide16.PNG",
-      price: 0,
+      price: 0.00,
       quantity: 30,
     },
     {
@@ -99,7 +99,7 @@ db.once("open", async () => {
       category: categories[1]._id,
       description: "Gingerale",
       image: "Slide11.PNG",
-      price: 2,
+      price: 2.00,
       quantity: 30,
     },
     {
@@ -108,7 +108,7 @@ db.once("open", async () => {
       description:
         "Whole milk with your choice between Chocolate and Strawberry",
       image: "Slide7.PNG",
-      price: 2,
+      price: 2.00,
       quantity: 30,
     },
     {
@@ -117,7 +117,7 @@ db.once("open", async () => {
       description:
         "Sweet Cream milk steamed to perfection with a shot of espresso, with your choice of flavoring between Vanilla, Hazelnut, Mocha.",
       image: "Slide8.PNG",
-      price: 5,
+      price: 5.00,
       quantity: 30,
     },
     {
@@ -125,7 +125,7 @@ db.once("open", async () => {
       category: categories[1]._id,
       description: "A smooth white coffee with a pump of breve flavoring",
       image: "Slide13.PNG",
-      price: 7,
+      price: 7.00,
       quantity: 30,
     },
     {
@@ -134,7 +134,7 @@ db.once("open", async () => {
       description:
         "Organic premium-grade matcha, milk and our housemade strawberry puree.",
       image: "Slide9.PNG",
-      price: 8,
+      price: 8.00,
       quantity: 30,
     },
     {
@@ -142,7 +142,7 @@ db.once("open", async () => {
       category: categories[1]._id,
       description: "A smooth chai tea, with options of Matcha tea on top",
       image: "Slide10.PNG",
-      price: 7,
+      price: 7.00,
       quantity: 30,
     },
 
@@ -152,7 +152,7 @@ db.once("open", async () => {
       description:
         "Your choice of strawberry, mango, peach, watermellon and taro slush topped with a thick slice of cheese.",
       image: "Slide12.PNG",
-      price: 7,
+      price: 7.00,
       quantity: 30,
     },
 
@@ -162,7 +162,7 @@ db.once("open", async () => {
       description:
         "Hat that says 'The Bailey Cafe', will come in colors of blue, gray, white, or black.",
       image: "hat.png",
-      price: 15,
+      price: 15.00,
       quantity: 600,
     },
     {
@@ -171,7 +171,7 @@ db.once("open", async () => {
       description:
         "Shirt that says 'The Bailey Cafe', the back has our slogan 'Better than your MaMa's Breakfast', will come in colors of blue, gray, white, or black.",
       image: "shirt.png",
-      price: 15,
+      price: 15.00,
       quantity: 600,
     },
     {
@@ -180,7 +180,7 @@ db.once("open", async () => {
       description:
         "A Sweatshirt that says 'The Bailey Cafe', will come in colors of blue, gray, white, or black.",
       image: "sweatshirt.png",
-      price: 45,
+      price: 45.00,
       quantity: 600,
     },
     {
@@ -189,7 +189,7 @@ db.once("open", async () => {
       description:
         "An apron that says 'The Bailey Cafe', comes in premium denim fabric.",
       image: "apron.png",
-      price: 35,
+      price: 35.00,
       quantity: 600,
     },
     {
@@ -198,7 +198,7 @@ db.once("open", async () => {
       description:
         "A mug that says 'The Bailey Cafe', will come in colors of blue, gray, white, or black.",
       image: "mug.png",
-      price: 20,
+      price: 20.00,
       quantity: 600,
     },
     {
@@ -206,9 +206,7 @@ db.once("open", async () => {
       category: categories[2]._id,
       description: "A gift card to be used at 'The Bailey Cafe'",
       image: "gift-card.png",
-      price: 25,
-      price: 50,
-      price: 100,
+      price: 25.00,
       quantity: 600,
     },
   ]);
