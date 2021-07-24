@@ -26,8 +26,12 @@ body {
   line-height: 1.5;
   font-size: 16px;
   color: var(--dark);
-  background-image: url(./assets/top-coffee.png) ;
+  /* background-image: url(./assets/top-coffee.png);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+
+
 }
 
 h1,
