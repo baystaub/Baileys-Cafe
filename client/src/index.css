@@ -25,10 +25,11 @@ body {
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
-  color: var(--dark);
-  background-image: url(./assets/top-coffee.png) ;
+  background-image: url(./assets/top-coffee.png);
   background-size: cover;
-}
+  background-position: center;
+  background-attachment: fixed;
+} 
 
 h1,
 h2,
@@ -49,12 +50,12 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  color: black;
+  color: var(--dark);
 }
 
 h3 {
   font-size: 1.75rem;
-  color: black;
+  color: var(--dark);
 }
 
 h4 {
@@ -75,18 +76,19 @@ h6 {
 p {
   font-size: 1.1rem;
   margin-top: 0;
-  color: black;
+  color: var(--light);
 }
 
 a {
   color: var(--tertiary);
   text-decoration: none;
   font-weight: bold;
-  color: black;
+
 }
 
 a:hover {
-  text-decoration: underline;
+  color: var(--secondary);
+  text-decoration: underline 5px;
 }
 
 header {
@@ -97,8 +99,13 @@ header a {
   color: var(--light);
 }
 
+/* .hero {
+  background-image: url(./assets/top-coffee.png);
+} */
+
 button {
   font-size: 1rem;
+  color: var(--light);
   text-decoration: none;
   padding: 0.25rem 1rem;
   border-radius: .5rem;
@@ -106,11 +113,11 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--secondary);
+  background-color: var(--primary);
 }
 
 button:hover {
-  opacity: .8;
+  opacity: .5;
 }
 
 button[disabled] {
@@ -119,11 +126,12 @@ button[disabled] {
 }
 
 img {
-  max-width: 100%;
+  max-width: 95%;
 }
 
 span[role="img"] {
   cursor: default;
+  color: var(--secondary);
 }
 
 form {
@@ -145,8 +153,8 @@ input:focus {
 }
 
 .container {
-  width: 85%;
-  max-width: 1200px;
+  width: 80%;
+  /* max-width: 1200px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -197,7 +205,6 @@ input:focus {
 .py-1 {
   padding-top: var(--spacing-one);
   padding-bottom: var(--spacing-one);
-  color: black;
 }
 
 .py-2 {
@@ -206,8 +213,12 @@ input:focus {
 }
 
 .card {
-  width: 25%;
+  width: 20%;
+  margin: 10px;
   text-align: center;
+  border-radius: .5rem;
+  box-shadow: 10px 5px 5px rgb(78, 78, 78);
+  background: lightblue;
 }
 
 .error-text {
