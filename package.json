@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "if-env": "^1.0.4",
+    "material-design-icons": "^3.0.1",
     "mongo-seeding": "^3.7.0",
     "mongoose-seeder": "^1.2.1"
   }
