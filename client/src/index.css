@@ -1,7 +1,7 @@
 :root {
   --primary: #232F3E;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
+  --secondary: #7dc5ee;
+  --tertiary: #ffcb22;
   --light: #fafafa;
   --dark: #272f32;
   --error: rgb(228, 46, 1);
@@ -76,11 +76,11 @@ h6 {
 p {
   font-size: 1.1rem;
   margin-top: 0;
-  color: var(--light);
+  color: var(--dark);
 }
 
 a {
-  color: var(--tertiary);
+  color: var(--dark);
   text-decoration: none;
   font-weight: bold;
 
@@ -98,10 +98,6 @@ header {
 header a {
   color: var(--light);
 }
-
-/* .hero {
-  background-image: url(./assets/top-coffee.png);
-} */
 
 button {
   font-size: 1rem;
@@ -131,7 +127,7 @@ img {
 
 span[role="img"] {
   cursor: default;
-  color: var(--secondary);
+  color: var(--tertiary);
 }
 
 form {
