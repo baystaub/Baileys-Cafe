@@ -5,7 +5,7 @@ import cafe from "../../assets/cafe.png";
 
 const LandingPage = () => {
   return (
-    <div className="landing">
+    <div className="landingHome">
       <img src={cafe} alt="Cafe" className="landing"/>
     <footer className="footer">
       <Link to="/login">SIGN IN</Link>

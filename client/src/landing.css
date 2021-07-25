@@ -1,10 +1,10 @@
-/* .landing {
-  background-image: url("./assets/cafe.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: auto;
-} */
+.landingHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  border-radius: none;
+}
 
 footer.footer {
   background-color: #b8d5b8;
