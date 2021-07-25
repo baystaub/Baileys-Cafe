@@ -8,6 +8,7 @@ import {
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 
+import LandingPage from './pages/LandingPage';
 import Home from './pages/Home';
 import Detail from './pages/Detail';
 import NoMatch from './pages/NoMatch';
@@ -45,7 +46,8 @@ function App() {
           <StoreProvider>
             <Nav />
             <Switch>
-              <Route exact path="/" component={Home} />
+              <Route exact path="/" component={LandingPage} />
+              <Route exact path="/Home" component={Home} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/signup" component={Signup} />
               <Route exact path="/success" component={Success} />
