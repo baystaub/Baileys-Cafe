@@ -2,17 +2,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 95vh;
   border-radius: none;
 }
 
+.landing {
+  height: 100vh;
+  min-width:max-content;
+}
+
 footer.footer {
-  background-color: #b8d5b8;
+  background-color: #05a8aa;
   left: 0;
   right: 0;
+  bottom: 0;
   height: 8vh;
   position: absolute;
-  bottom: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -22,11 +26,49 @@ footer.footer {
   text-decoration: none;
   font-family: 'Julius Sans One';
   font-size: 25px;
-  font-weight: 900;
-  color: white;
+  color: black;
 }
 
 .footer > a:hover {
-  color: #05a8aa;
+  color: #b8d5b8;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .landingHome,
+  .landing,
+  footer.footer {
+    overflow: hidden;
+  }
+  .landingHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: none;
+  }
+  
+  .landing {
+    height: 95vh;
+    min-width:max-content;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .landingHome,
+  .landing,
+  footer.footer {
+    overflow: hidden;
+  }
+  .landingHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: none;
+  }
+  
+  .landing {
+    height: 75vh;
+    min-width:max-content;
+  }
 }
