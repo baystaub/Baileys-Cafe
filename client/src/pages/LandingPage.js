@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/LandingPage";
 
-const Home = () => {
+const LandingPage = () => {
   return (
     <div className="container">
       <Footer />
@@ -9,4 +9,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default LandingPage;

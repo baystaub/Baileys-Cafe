@@ -1,13 +1,32 @@
-.footer {
+/* .landing {
+  background-image: url("./assets/cafe.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+} */
+
+footer.footer {
+  background-color: #b8d5b8;
+  left: 0;
+  right: 0;
+  height: 8vh;
   position: absolute;
   bottom: 0;
-  width: auto;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-a {
+.footer > a {
   text-decoration: none;
-  font-size: 20px;
+  font-family: 'Julius Sans One';
+  font-size: 25px;
+  font-weight: 900;
   color: white;
-  justify-content: center;
+}
+
+.footer > a:hover {
+  color: #05a8aa;
+  text-decoration: none;
 }
