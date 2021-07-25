@@ -22,6 +22,8 @@
   "dependencies": {
     "if-env": "^1.0.4",
     "mongo-seeding": "^3.7.0",
-    "mongoose-seeder": "^1.2.1"
+    "mongoose-seeder": "^1.2.1",
+    "watchpack": "^2.2.0",
+    "watchpack-chokidar2": "^2.0.1"
   }
 }
