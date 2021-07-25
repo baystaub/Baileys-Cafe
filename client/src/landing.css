@@ -1,0 +1,32 @@
+.landingHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  border-radius: none;
+}
+
+footer.footer {
+  background-color: #b8d5b8;
+  left: 0;
+  right: 0;
+  height: 8vh;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer > a {
+  text-decoration: none;
+  font-family: 'Julius Sans One';
+  font-size: 25px;
+  font-weight: 900;
+  color: white;
+}
+
+.footer > a:hover {
+  color: #05a8aa;
+  text-decoration: none;
+}
