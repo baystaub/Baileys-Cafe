@@ -209,6 +209,22 @@ db.once("open", async () => {
       price: 25.00,
       quantity: 600,
     },
+    {
+      name: "Frisbee",
+      category: categories[2]._id,
+      description: "A fun frisbee for the kids to play with that says: 'The Bailey Cafe'",
+      image: "Frisbee.png",
+      price: 10.00,
+      quantity: 600,
+    },
+    {
+      name: "Beanie",
+      category: categories[2]._id,
+      description: "A Beanie that says:'The Bailey Cafe'",
+      image: "Beanie.png",
+      price: 25.00,
+      quantity: 600,
+    },
   ]);
 
   console.log("products seeded");
