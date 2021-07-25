@@ -111,9 +111,6 @@ p {
   color: var(--dark);
   font-weight: 600;
   font-family: 'Julius Sans One', sans-serif;
-  /* @font-face { font-family: "Delicious";
-    src: url('./assets/standfont.otf'); }  */
-  /* @font-face { font-family: Delicious; font-weight: bold; src: url('Delicious-Bold.otf');} */
 }
 
 a {
@@ -145,7 +142,7 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
-  margin: 0 1px;
+  margin: 10px 3px;
   background-color: #b8d5b8;
   font-family: 'Julius Sans One', sans-serif;
 }
@@ -189,7 +186,6 @@ input:focus {
 
 .container {
   width: 80%;
-  /* max-width: 1200px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -197,6 +193,7 @@ input:focus {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .space-between {
