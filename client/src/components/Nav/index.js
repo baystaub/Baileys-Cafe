@@ -1,6 +1,7 @@
 import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
+import Logo from "./tbclogo.png";
 
 function Nav() {
 
@@ -43,7 +44,8 @@ function Nav() {
     <header className="flex-row px-1">
       <h1>
         <Link to="/">
-          <span role="img" aria-label="logo">logo</span>
+          <img src= {Logo} id='tbc' height='45px' width='45px' alt='logo'/>
+          <span role="img" aria-label="logo"> </span>
           The Bailey Cafe
         </Link>
       </h1>
