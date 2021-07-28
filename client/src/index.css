@@ -64,6 +64,7 @@ button {
 
 #tbc {
   margin-top: 10px;
+  justify-content: left;
 }
 
 h1,
@@ -72,7 +73,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
