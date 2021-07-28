@@ -63,8 +63,8 @@ button {
 }
 
 #tbc {
-  margin-top: 10px;
-  justify-content: left;
+  margin: 20px;
+  
 }
 
 h1,
@@ -80,8 +80,13 @@ h6 {
 }
 
 h1 {
-  font-size: 2.25rem;
-  color: black;
+  /* margin-right: var(--spacing-one);
+  margin-left: var(--spacing-one); */
+  justify-items: center;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 50px;
+  margin-top: 10px;
+
 }
 
 h2 {
@@ -212,6 +217,8 @@ input:focus {
 .mx-1 {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 36px;
 }
 
 .mx-2 {
