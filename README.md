@@ -1,5 +1,19 @@
-# The Bailey Cafe
-![Screenshot of website]()
+# The Bailey 
+-initial opening of application
+![Screenshot](client/src/assets/Screenshot-45.png)
+-signup/login page
+![Screenshot](client/src/assets/Screenshot-47.png)
+![Screenshot](client/src/assets/Screenshot-55.png)
+-landing page once signed in
+![Screenshot](client/src/assets/Screenshot-48.png)
+-Menu pages
+![Screenshot](client/src/assets/Screenshot-53.png)
+![Screenshot](client/src/assets/Screenshot-42.png)
+![Screenshot](client/src/assets/Screenshot-54.png)
+-Items added to a cart
+![Screenshot](client/src/assets/Screenshot-50.png)
+-stripe integration
+![Screenshot](client/src/assets/Screenshot-51.png)
 
 ## Installation
 
@@ -15,9 +29,11 @@ npm install
 ```
 npm start
 ```
-6. View the application on `http://localhost:3001`
+6. View the application on `http://localhost:3000`
 
-## Usage
+## links to deployment
+Heroku: https://thebaileycafe.herokuapp.com
+github: https://github.com/baystaub/Baileys-Cafe
 
 
 
