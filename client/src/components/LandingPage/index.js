@@ -10,7 +10,7 @@ const LandingPage = () => {
     <footer className="footer">
       <Link to="/login">SIGN IN</Link>
       <Link to="/home">MENU</Link>
-      <Link to="/contact">CONTACT</Link>
+      <a href="mailto:manager@email.com">CONTACT</a>
     </footer>
     </div>
   );
