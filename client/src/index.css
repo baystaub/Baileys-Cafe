@@ -62,21 +62,31 @@ button {
   background-color: #b8d5b8;
 }
 
+#tbc {
+  margin: 20px;
+  
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
 }
 
 h1 {
-  font-size: 2.25rem;
-  color: black;
+  /* margin-right: var(--spacing-one);
+  margin-left: var(--spacing-one); */
+  justify-items: center;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 50px;
+  margin-top: 10px;
+
 }
 
 h2 {
@@ -207,6 +217,8 @@ input:focus {
 .mx-1 {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 36px;
 }
 
 .mx-2 {
