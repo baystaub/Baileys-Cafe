@@ -58,8 +58,12 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
- 
   background-color: #b8d5b8;
+}
+
+.category {
+  font-size: 18px;
+  background-color: transparent;
 }
 
 h1,

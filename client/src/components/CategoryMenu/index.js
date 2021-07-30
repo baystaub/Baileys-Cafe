@@ -48,6 +48,7 @@ function CategoryMenu() {
       {categories.map((item) => (
         <button
           key={item._id}
+          className = "category"
           onClick={() => {
             handleClick(item._id);
           }}
